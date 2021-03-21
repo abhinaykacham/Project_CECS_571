@@ -13,6 +13,13 @@
             <artifactId>opencsv</artifactId>
             <version>4.5</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.jena/jena-core -->
+        <dependency>
+            <groupId>org.apache.jena</groupId>
+            <artifactId>jena-core</artifactId>
+            <version>3.17.0</version>
+        </dependency>
+
     </dependencies>
 
     <properties>
