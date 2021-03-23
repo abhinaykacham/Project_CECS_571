@@ -3,6 +3,8 @@ package com.csulb;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdf.model.Property;
 import org.apache.jena.rdf.model.Resource;
+import org.apache.jena.vocabulary.RDFS;
+import org.apache.jena.vocabulary.XSD;
 
 import java.io.IOException;
 
@@ -19,16 +21,38 @@ public class CovidHealthDataset extends InputToRdfAbstractClass{
     @Override
     void run() {
         buildRdf();
-        transferRdfToFile("/home/abhinay/Documents/CECS571/Project_CECS_571/src/main/resources/output files/health_condition.rdf");
+        transferRdfToFile(Constants.HEALTH_CONDITION_OUTPUT_PATH);
     }
 
     @Override
     void buildRdf() {
         model = ModelFactory.createDefaultModel();
         model.setNsPrefix("healthConditionRdf",Constants.HEALTH_CONDITION_URL);
-        Property stateProperty = model.createProperty(Constants.HEALTH_CONDITION_URL+"state");
-        Property healthConditionProperty = model.createProperty(Constants.HEALTH_CONDITION_URL+"health_condition");
-        Property deathScaleProperty = model.createProperty(Constants.HEALTH_CONDITION_URL+"death_scale");
+
+        //Creating resources for the dataset
+        Resource deathsResource = model.createResource(Constants.HEALTH_CONDITION_URL+"#deaths", RDFS.Class);
+
+        Resource regionResource = model.createResource(Constants.HEALTH_CONDITION_URL+"#region",RDFS.Class);
+        Property name = model.createProperty(Constants.HEALTH_CONDITION_URL+"/name");
+        name.addProperty(RDFS.range,XSD.normalizedString);
+        name.addProperty(RDFS.domain,regionResource);
+
+        Resource stateResource = model.createResource(Constants.HEALTH_CONDITION_URL+"#state",RDFS.Class);
+        stateResource.addProperty(RDFS.subClassOf, regionResource);
+
+        //Creating properties for the data set
+        Property atScaleProperty  = model.createProperty(Constants.HEALTH_CONDITION_URL+"/atScale");
+        atScaleProperty.addProperty(RDFS.domain,deathsResource);
+        atScaleProperty.addProperty(RDFS.range, XSD.normalizedString);
+
+        Property occurredAtProperty  = model.createProperty(Constants.HEALTH_CONDITION_URL+"/occurredAt");
+        occurredAtProperty.addProperty(RDFS.domain,deathsResource);
+        occurredAtProperty.addProperty(RDFS.range,stateResource);
+
+        Property hasHealthConditionProperty = model.createProperty(Constants.HEALTH_CONDITION_URL+"/hasHealthCondition");
+        hasHealthConditionProperty.addProperty(RDFS.domain,deathsResource);
+        hasHealthConditionProperty.addProperty(RDFS.range,XSD.normalizedString);
+
         String[] line;
         try {
             csvReader.skip(1);
@@ -48,18 +72,26 @@ public class CovidHealthDataset extends InputToRdfAbstractClass{
                     }else if(i==1){
                         healthCondition = line[i];
                     }else if(i==2){
-                        deathScale = line[i];
+                        int numberOfDeaths=line[i].equals("")?0:Integer.parseInt(line[i]);
+                        if(numberOfDeaths<500)
+                            deathScale = "low";
+                        else if(numberOfDeaths<1000)
+                            deathScale = "medium";
+                        else
+                            deathScale = "high";
                     }
                 }
-                Resource stateURI = model.createResource("https://data.edd.ca.gov" + j);
-                stateURI.addProperty(stateProperty,stateName);
-                stateURI.addProperty(healthConditionProperty,healthCondition);
-                stateURI.addProperty(deathScaleProperty,deathScale);
+                Resource entry = model.createResource("https://cdc.com"+"/#"+ j,deathsResource);
+                entry.addProperty(atScaleProperty,deathScale);
+                entry.addProperty(hasHealthConditionProperty,healthCondition);
+
+                Resource stateValue = model.createResource("https://cdc.com"+"/#" + j,stateResource);
+                stateValue.addProperty(name,stateName);
+                entry.addProperty(occurredAtProperty,stateValue);
+                j++;
             }
         }catch (IOException e){
             e.printStackTrace();
         }
-
-
     }
 }

@@ -1,10 +1,8 @@
 package com.csulb;
 
-import java.io.File;
-
 public class App {
     public static void main(String[] args) {
-        CovidHealthDataset covidHealthDataset = new CovidHealthDataset(Constants.HEALTH_CONDITION_FILE_PATH);
+        CovidHealthDataset covidHealthDataset = new CovidHealthDataset(Constants.HEALTH_CONDITION_INPUT_PATH);
         covidHealthDataset.run();
     }
 }
