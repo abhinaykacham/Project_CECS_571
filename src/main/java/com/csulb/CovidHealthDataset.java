@@ -6,6 +6,7 @@ import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.vocabulary.RDFS;
 import org.apache.jena.vocabulary.XSD;
 
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.HashMap;
@@ -30,6 +31,7 @@ public class CovidHealthDataset extends InputToRdfAbstractClass{
 
     @Override
     void run() {
+        readProperties();
         buildRdf();
         transferRdfToFile(Constants.HEALTH_CONDITION_OUTPUT_PATH);
     }
@@ -131,7 +133,7 @@ public class CovidHealthDataset extends InputToRdfAbstractClass{
     }
 
     public void readProperties(){
-        try(InputStream in = getClass().getResourceAsStream(Constants.HEALTH_CONDITION_PROPERTIES_PATH)){
+        try(InputStream in = new FileInputStream(Constants.HEALTH_CONDITION_PROPERTIES_PATH)){
             Properties prop = new Properties();
             prop.load(in);
             lowScale = Integer.parseInt(prop.getProperty("low_scale"));
