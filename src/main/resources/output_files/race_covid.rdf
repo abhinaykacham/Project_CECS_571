@@ -1,0 +1,2945 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="https://data.cdc.gov/api/views/hk9y-quqm/#"
+    xmlns:j.1="https://data.cdc.gov/api/views/hk9y-quqm//"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:RaceConditionRdf="https://data.cdc.gov/api/views/hk9y-quqm/" > 
+  <rdf:Description rdf:about="https://cdc.com/#82">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#82"/>
+    <j.1:name>Hawaii</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#200">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#200"/>
+    <j.1:name>Nevada</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Native Hawaiian or Other Pacific Islander</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#321">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#321"/>
+    <j.1:name>Utah</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Other</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#70">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#70"/>
+    <j.1:name>Georgia</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#103">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#103"/>
+    <j.1:name>Indiana</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#115">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#115"/>
+    <j.1:name>Kansas</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#127">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#127"/>
+    <j.1:name>Louisiana</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#139">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#139"/>
+    <j.1:name>Maine</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Other</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#94">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#94"/>
+    <j.1:name>Illinois</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
+    <j.1:atScale>medium</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#292">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#292"/>
+    <j.1:name>South Carolina</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#4">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#4"/>
+    <j.1:name>Alabama</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Native Hawaiian or Other Pacific Islander</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#171">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#171"/>
+    <j.1:name>Mississippi</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#183">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#183"/>
+    <j.1:name>Montana</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#195">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#195"/>
+    <j.1:name>Nebraska</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Other</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.cdc.gov/api/views/hk9y-quqm/#state">
+    <rdfs:subClassOf rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#region"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#248">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#248"/>
+    <j.1:name>North Dakota</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#236">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#236"/>
+    <j.1:name>New York City</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#357">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#357"/>
+    <j.1:name>Wyoming</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#38">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#38"/>
+    <j.1:name>Colorado</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#224">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#224"/>
+    <j.1:name>New York</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#345">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#345"/>
+    <j.1:name>West Virginia</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#26">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#26"/>
+    <j.1:name>Arkansas</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#212">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#212"/>
+    <j.1:name>New Jersey</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#333">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#333"/>
+    <j.1:name>Virginia</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Native Hawaiian or Other Pacific Islander</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#14">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#14"/>
+    <j.1:name>Arizona</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#280">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#280"/>
+    <j.1:name>Rhode Island</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#93">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#93"/>
+    <j.1:name>Illinois</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#102">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#102"/>
+    <j.1:name>Indiana</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Native Hawaiian or Other Pacific Islander</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#211">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#211"/>
+    <j.1:name>New Jersey</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#332">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#332"/>
+    <j.1:name>Virginia</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#114">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#114"/>
+    <j.1:name>Kansas</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#320">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#320"/>
+    <j.1:name>Utah</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#81">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#81"/>
+    <j.1:name>Hawaii</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Native Hawaiian or Other Pacific Islander</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#126">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#126"/>
+    <j.1:name>Louisiana</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#138">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#138"/>
+    <j.1:name>Maine</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#182">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#182"/>
+    <j.1:name>Montana</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#13">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#13"/>
+    <j.1:name>Alaska</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Other</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#3">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#3"/>
+    <j.1:name>Alabama</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#194">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#194"/>
+    <j.1:name>Nebraska</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#259">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#259"/>
+    <j.1:name>Oklahoma</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#247">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#247"/>
+    <j.1:name>North Dakota</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#49">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#49"/>
+    <j.1:name>Delaware</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
+    <j.1:atScale>medium</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#235">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#235"/>
+    <j.1:name>New York City</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Native Hawaiian or Other Pacific Islander</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#356">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#356"/>
+    <j.1:name>Wisconsin</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Other</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#37">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#37"/>
+    <j.1:name>Colorado</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#223">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#223"/>
+    <j.1:name>New Mexico</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Other</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#344">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#344"/>
+    <j.1:name>West Virginia</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#25">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#25"/>
+    <j.1:name>Arkansas</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Native Hawaiian or Other Pacific Islander</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#170">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#170"/>
+    <j.1:name>Mississippi</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#291">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#291"/>
+    <j.1:name>South Carolina</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Native Hawaiian or Other Pacific Islander</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#113">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#113"/>
+    <j.1:name>Kansas</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#222">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#222"/>
+    <j.1:name>New Mexico</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#343">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#343"/>
+    <j.1:name>West Virginia</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#60">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#60"/>
+    <j.1:name>District of Columbia</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Native Hawaiian or Other Pacific Islander</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#210">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#210"/>
+    <j.1:name>New Jersey</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#125">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#125"/>
+    <j.1:name>Kentucky</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Other</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#331">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#331"/>
+    <j.1:name>Virginia</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#137">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#137"/>
+    <j.1:name>Maine</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Native Hawaiian or Other Pacific Islander</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#149">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#149"/>
+    <j.1:name>Massachusetts</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#96">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#96"/>
+    <j.1:name>Illinois</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#84">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#84"/>
+    <j.1:name>Idaho</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#72">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#72"/>
+    <j.1:name>Georgia</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#193">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#193"/>
+    <j.1:name>Nebraska</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Native Hawaiian or Other Pacific Islander</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#6">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#6"/>
+    <j.1:name>Alabama</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Other</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#28">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#28"/>
+    <j.1:name>California</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.cdc.gov/api/views/hk9y-quqm/#region">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#16">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#16"/>
+    <j.1:name>Arizona</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#258">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#258"/>
+    <j.1:name>Ohio</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Other</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#246">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#246"/>
+    <j.1:name>North Dakota</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#101">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#101"/>
+    <j.1:name>Indiana</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#234">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#234"/>
+    <j.1:name>New York City</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#355">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#355"/>
+    <j.1:name>Wisconsin</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#29">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#29"/>
+    <j.1:name>California</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#181">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#181"/>
+    <j.1:name>Missouri</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Other</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#290">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#290"/>
+    <j.1:name>South Carolina</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#124">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#124"/>
+    <j.1:name>Kentucky</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#233">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#233"/>
+    <j.1:name>New York City</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#354">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#354"/>
+    <j.1:name>Wisconsin</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Native Hawaiian or Other Pacific Islander</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#71">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#71"/>
+    <j.1:name>Georgia</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#221">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#221"/>
+    <j.1:name>New Mexico</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Native Hawaiian or Other Pacific Islander</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#136">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#136"/>
+    <j.1:name>Maine</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#342">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#342"/>
+    <j.1:name>Washington</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Other</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#148">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#148"/>
+    <j.1:name>Massachusetts</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
+    <j.1:atScale>medium</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#330">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#330"/>
+    <j.1:name>Virginia</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#95">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#95"/>
+    <j.1:name>Illinois</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Native Hawaiian or Other Pacific Islander</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#83">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#83"/>
+    <j.1:name>Hawaii</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Other</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#5">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#5"/>
+    <j.1:name>Alabama</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#39">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#39"/>
+    <j.1:name>Colorado</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Native Hawaiian or Other Pacific Islander</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#27">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#27"/>
+    <j.1:name>Arkansas</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Other</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#269">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#269"/>
+    <j.1:name>Oregon</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#15">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#15"/>
+    <j.1:name>Arizona</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#257">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#257"/>
+    <j.1:name>Ohio</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#100">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#100"/>
+    <j.1:name>Indiana</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#112">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#112"/>
+    <j.1:name>Kansas</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#245">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#245"/>
+    <j.1:name>North Dakota</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#180">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#180"/>
+    <j.1:name>Missouri</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#192">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#192"/>
+    <j.1:name>Nebraska</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#135">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#135"/>
+    <j.1:name>Maine</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#244">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#244"/>
+    <j.1:name>North Carolina</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Other</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#353">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#353"/>
+    <j.1:name>Wisconsin</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#232">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#232"/>
+    <j.1:name>New York City</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#147">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#147"/>
+    <j.1:name>Massachusetts</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#220">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#220"/>
+    <j.1:name>New Mexico</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#159">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#159"/>
+    <j.1:name>Michigan</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
+    <j.1:atScale>medium</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#341">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#341"/>
+    <j.1:name>Washington</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
+    <j.1:atScale>medium</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#90">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#90"/>
+    <j.1:name>Idaho</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Other</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#46">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#46"/>
+    <j.1:name>Connecticut</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Native Hawaiian or Other Pacific Islander</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#34">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#34"/>
+    <j.1:name>California</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Other</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#22">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#22"/>
+    <j.1:name>Arkansas</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
+    <j.1:atScale>medium</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#10">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#10"/>
+    <j.1:name>Alaska</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#8">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#8"/>
+    <j.1:name>Alaska</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#268">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#268"/>
+    <j.1:name>Oregon</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#111">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#111"/>
+    <j.1:name>Iowa</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Other</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#58">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#58"/>
+    <j.1:name>District of Columbia</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#123">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#123"/>
+    <j.1:name>Kentucky</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Native Hawaiian or Other Pacific Islander</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#256">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#256"/>
+    <j.1:name>Ohio</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Native Hawaiian or Other Pacific Islander</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#191">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#191"/>
+    <j.1:name>Nebraska</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#146">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#146"/>
+    <j.1:name>Maryland</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Other</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#255">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#255"/>
+    <j.1:name>Ohio</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#243">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#243"/>
+    <j.1:name>North Carolina</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#158">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#158"/>
+    <j.1:name>Michigan</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Native Hawaiian or Other Pacific Islander</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#231">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#231"/>
+    <j.1:name>New York City</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#352">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#352"/>
+    <j.1:name>Wisconsin</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#340">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#340"/>
+    <j.1:name>Washington</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Native Hawaiian or Other Pacific Islander</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#57">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#57"/>
+    <j.1:name>District of Columbia</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
+    <j.1:atScale>medium</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#45">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#45"/>
+    <j.1:name>Connecticut</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#33">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#33"/>
+    <j.1:name>California</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#21">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#21"/>
+    <j.1:name>Arkansas</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#110">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#110"/>
+    <j.1:name>Iowa</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#7">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#7"/>
+    <j.1:name>Alaska</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#122">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#122"/>
+    <j.1:name>Kentucky</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#279">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#279"/>
+    <j.1:name>Pennsylvania</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Other</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#69">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#69"/>
+    <j.1:name>Florida</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Other</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#134">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#134"/>
+    <j.1:name>Maine</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#267">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#267"/>
+    <j.1:name>Oregon</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#190">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#190"/>
+    <j.1:name>Nebraska</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#309">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#309"/>
+    <j.1:name>Texas</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#157">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#157"/>
+    <j.1:name>Michigan</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#266">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#266"/>
+    <j.1:name>Oregon</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#254">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#254"/>
+    <j.1:name>Ohio</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#169">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#169"/>
+    <j.1:name>Mississippi</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#92">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#92"/>
+    <j.1:name>Illinois</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#242">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#242"/>
+    <j.1:name>North Carolina</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Native Hawaiian or Other Pacific Islander</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#363">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#363"/>
+    <j.1:name>Wyoming</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Other</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#80">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#80"/>
+    <j.1:name>Hawaii</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#230">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#230"/>
+    <j.1:name>New York</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Other</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#351">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#351"/>
+    <j.1:name>Wisconsin</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#307">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#307"/>
+    <j.1:name>Tennessee</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Other</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#24">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#24"/>
+    <j.1:name>Arkansas</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#12">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#12"/>
+    <j.1:name>Alaska</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#121">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#121"/>
+    <j.1:name>Kentucky</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#133">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#133"/>
+    <j.1:name>Maine</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
+    <j.1:atScale>medium</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#48">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#48"/>
+    <j.1:name>Connecticut</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Other</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#145">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#145"/>
+    <j.1:name>Maryland</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
+    <j.1:atScale>medium</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#36">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#36"/>
+    <j.1:name>Colorado</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#278">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#278"/>
+    <j.1:name>Pennsylvania</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#308">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#308"/>
+    <j.1:name>Texas</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#168">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#168"/>
+    <j.1:name>Mississippi</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#277">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#277"/>
+    <j.1:name>Pennsylvania</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Native Hawaiian or Other Pacific Islander</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#265">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#265"/>
+    <j.1:name>Oklahoma</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Other</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#253">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#253"/>
+    <j.1:name>Ohio</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#91">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#91"/>
+    <j.1:name>Illinois</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#241">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#241"/>
+    <j.1:name>North Carolina</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#362">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#362"/>
+    <j.1:name>Wyoming</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#350">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#350"/>
+    <j.1:name>Wisconsin</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#318">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#318"/>
+    <j.1:name>Utah</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#35">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#35"/>
+    <j.1:name>Colorado</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#306">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#306"/>
+    <j.1:name>Tennessee</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#23">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#23"/>
+    <j.1:name>Arkansas</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#11">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#11"/>
+    <j.1:name>Alaska</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Native Hawaiian or Other Pacific Islander</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#120">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#120"/>
+    <j.1:name>Kentucky</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
+    <j.1:atScale>medium</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#132">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#132"/>
+    <j.1:name>Louisiana</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Other</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#144">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#144"/>
+    <j.1:name>Maryland</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Native Hawaiian or Other Pacific Islander</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#59">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#59"/>
+    <j.1:name>District of Columbia</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#9">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#9"/>
+    <j.1:name>Alaska</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#156">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#156"/>
+    <j.1:name>Michigan</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#47">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#47"/>
+    <j.1:name>Connecticut</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
+    <j.1:atScale>medium</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#289">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#289"/>
+    <j.1:name>South Carolina</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#319">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#319"/>
+    <j.1:name>Utah</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Native Hawaiian or Other Pacific Islander</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#179">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#179"/>
+    <j.1:name>Missouri</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Native Hawaiian or Other Pacific Islander</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#288">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#288"/>
+    <j.1:name>South Carolina</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#276">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#276"/>
+    <j.1:name>Pennsylvania</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#264">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#264"/>
+    <j.1:name>Oklahoma</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#252">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#252"/>
+    <j.1:name>Ohio</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#240">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#240"/>
+    <j.1:name>North Carolina</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#361">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#361"/>
+    <j.1:name>Wyoming</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Native Hawaiian or Other Pacific Islander</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#42">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#42"/>
+    <j.1:name>Connecticut</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#30">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#30"/>
+    <j.1:name>California</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#208">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#208"/>
+    <j.1:name>New Hampshire</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#329">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#329"/>
+    <j.1:name>Virginia</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#317">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#317"/>
+    <j.1:name>Utah</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#78">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#78"/>
+    <j.1:name>Hawaii</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#305">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#305"/>
+    <j.1:name>Tennessee</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Native Hawaiian or Other Pacific Islander</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#66">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#66"/>
+    <j.1:name>Florida</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#54">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#54"/>
+    <j.1:name>Delaware</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#131">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#131"/>
+    <j.1:name>Louisiana</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#143">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#143"/>
+    <j.1:name>Maryland</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#155">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#155"/>
+    <j.1:name>Michigan</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#167">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#167"/>
+    <j.1:name>Minnesota</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Other</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#209">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#209"/>
+    <j.1:name>New Hampshire</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Other</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.cdc.gov/api/views/hk9y-quqm//atScale">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#normalizedString"/>
+    <rdfs:domain rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#299">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#299"/>
+    <j.1:name>South Dakota</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#287">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#287"/>
+    <j.1:name>South Carolina</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#275">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#275"/>
+    <j.1:name>Pennsylvania</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#263">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#263"/>
+    <j.1:name>Oklahoma</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Native Hawaiian or Other Pacific Islander</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#251">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#251"/>
+    <j.1:name>North Dakota</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Other</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#53">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#53"/>
+    <j.1:name>Delaware</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Native Hawaiian or Other Pacific Islander</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#360">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#360"/>
+    <j.1:name>Wyoming</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#41">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#41"/>
+    <j.1:name>Colorado</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Other</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#219">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#219"/>
+    <j.1:name>New Mexico</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#89">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#89"/>
+    <j.1:name>Idaho</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#207">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#207"/>
+    <j.1:name>New Hampshire</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Native Hawaiian or Other Pacific Islander</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#328">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#328"/>
+    <j.1:name>Vermont</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Other</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#77">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#77"/>
+    <j.1:name>Hawaii</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#316">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#316"/>
+    <j.1:name>Utah</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#65">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#65"/>
+    <j.1:name>Florida</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#304">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#304"/>
+    <j.1:name>Tennessee</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#130">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#130"/>
+    <j.1:name>Louisiana</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Native Hawaiian or Other Pacific Islander</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#142">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#142"/>
+    <j.1:name>Maryland</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#154">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#154"/>
+    <j.1:name>Michigan</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#166">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#166"/>
+    <j.1:name>Minnesota</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#178">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#178"/>
+    <j.1:name>Missouri</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#298">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#298"/>
+    <j.1:name>South Dakota</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Native Hawaiian or Other Pacific Islander</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#286">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#286"/>
+    <j.1:name>Rhode Island</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Other</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#274">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#274"/>
+    <j.1:name>Pennsylvania</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#20">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#20"/>
+    <j.1:name>Arizona</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Other</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#262">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#262"/>
+    <j.1:name>Oklahoma</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#250">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#250"/>
+    <j.1:name>North Dakota</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#109">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#109"/>
+    <j.1:name>Iowa</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Native Hawaiian or Other Pacific Islander</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#68">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#68"/>
+    <j.1:name>Florida</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#218">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#218"/>
+    <j.1:name>New Mexico</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#339">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#339"/>
+    <j.1:name>Washington</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#56">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#56"/>
+    <j.1:name>District of Columbia</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#206">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#206"/>
+    <j.1:name>New Hampshire</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#327">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#327"/>
+    <j.1:name>Vermont</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#44">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#44"/>
+    <j.1:name>Connecticut</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#315">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#315"/>
+    <j.1:name>Utah</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#141">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#141"/>
+    <j.1:name>Maryland</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#32">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#32"/>
+    <j.1:name>California</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Native Hawaiian or Other Pacific Islander</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#303">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#303"/>
+    <j.1:name>Tennessee</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#153">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#153"/>
+    <j.1:name>Massachusetts</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Other</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#165">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#165"/>
+    <j.1:name>Minnesota</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Native Hawaiian or Other Pacific Islander</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#177">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#177"/>
+    <j.1:name>Missouri</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#189">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#189"/>
+    <j.1:name>Nebraska</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.cdc.gov/api/views/hk9y-quqm//name">
+    <rdfs:domain rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#region"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#normalizedString"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#297">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#297"/>
+    <j.1:name>South Dakota</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#285">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#285"/>
+    <j.1:name>Rhode Island</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#31">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#31"/>
+    <j.1:name>California</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#273">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#273"/>
+    <j.1:name>Pennsylvania</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#261">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#261"/>
+    <j.1:name>Oklahoma</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
+    <j.1:atScale>medium</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#108">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#108"/>
+    <j.1:name>Iowa</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#79">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#79"/>
+    <j.1:name>Hawaii</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#229">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#229"/>
+    <j.1:name>New York</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#67">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#67"/>
+    <j.1:name>Florida</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Native Hawaiian or Other Pacific Islander</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#217">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#217"/>
+    <j.1:name>New Mexico</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
+    <j.1:atScale>medium</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#338">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#338"/>
+    <j.1:name>Washington</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#140">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#140"/>
+    <j.1:name>Maryland</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#55">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#55"/>
+    <j.1:name>Delaware</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Other</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#205">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#205"/>
+    <j.1:name>New Hampshire</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#326">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#326"/>
+    <j.1:name>Vermont</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Native Hawaiian or Other Pacific Islander</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#152">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#152"/>
+    <j.1:name>Massachusetts</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
+    <j.1:atScale>medium</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#43">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#43"/>
+    <j.1:name>Connecticut</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
+    <j.1:atScale>medium</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#314">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#314"/>
+    <j.1:name>Texas</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Other</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#164">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#164"/>
+    <j.1:name>Minnesota</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#302">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#302"/>
+    <j.1:name>Tennessee</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#176">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#176"/>
+    <j.1:name>Missouri</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#188">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#188"/>
+    <j.1:name>Montana</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Other</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.cdc.gov/api/views/hk9y-quqm/#deaths">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#296">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#296"/>
+    <j.1:name>South Dakota</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#284">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#284"/>
+    <j.1:name>Rhode Island</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Native Hawaiian or Other Pacific Islander</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#0">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#0"/>
+    <j.1:name>Alabama</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#86">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#86"/>
+    <j.1:name>Idaho</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#107">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#107"/>
+    <j.1:name>Iowa</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#272">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#272"/>
+    <j.1:name>Oregon</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Other</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#74">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#74"/>
+    <j.1:name>Georgia</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Native Hawaiian or Other Pacific Islander</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#119">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#119"/>
+    <j.1:name>Kentucky</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#260">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#260"/>
+    <j.1:name>Oklahoma</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#62">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#62"/>
+    <j.1:name>District of Columbia</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Other</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#50">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#50"/>
+    <j.1:name>Delaware</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#228">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#228"/>
+    <j.1:name>New York</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Native Hawaiian or Other Pacific Islander</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#349">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#349"/>
+    <j.1:name>West Virginia</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Other</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#151">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#151"/>
+    <j.1:name>Massachusetts</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Native Hawaiian or Other Pacific Islander</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#216">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#216"/>
+    <j.1:name>New Jersey</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Other</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#337">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#337"/>
+    <j.1:name>Washington</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#163">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#163"/>
+    <j.1:name>Minnesota</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#98">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#98"/>
+    <j.1:name>Indiana</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#204">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#204"/>
+    <j.1:name>New Hampshire</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#325">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#325"/>
+    <j.1:name>Vermont</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#175">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#175"/>
+    <j.1:name>Missouri</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#313">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#313"/>
+    <j.1:name>Texas</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#187">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#187"/>
+    <j.1:name>Montana</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#301">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#301"/>
+    <j.1:name>Tennessee</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#199">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#199"/>
+    <j.1:name>Nevada</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
+    <j.1:atScale>medium</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#19">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#19"/>
+    <j.1:name>Arizona</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#106">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#106"/>
+    <j.1:name>Iowa</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#295">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#295"/>
+    <j.1:name>South Dakota</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#97">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#97"/>
+    <j.1:name>Illinois</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Other</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#118">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#118"/>
+    <j.1:name>Kansas</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Other</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#283">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#283"/>
+    <j.1:name>Rhode Island</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#85">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#85"/>
+    <j.1:name>Idaho</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#271">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#271"/>
+    <j.1:name>Oregon</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#73">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#73"/>
+    <j.1:name>Georgia</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#61">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#61"/>
+    <j.1:name>District of Columbia</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#150">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#150"/>
+    <j.1:name>Massachusetts</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.cdc.gov/api/views/hk9y-quqm//occurredAt">
+    <rdfs:range rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <rdfs:domain rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#239">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#239"/>
+    <j.1:name>North Carolina</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#162">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#162"/>
+    <j.1:name>Minnesota</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#227">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#227"/>
+    <j.1:name>New York</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
+    <j.1:atScale>medium</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#348">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#348"/>
+    <j.1:name>West Virginia</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#174">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#174"/>
+    <j.1:name>Mississippi</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Other</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#215">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#215"/>
+    <j.1:name>New Jersey</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#336">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#336"/>
+    <j.1:name>Washington</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#186">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#186"/>
+    <j.1:name>Montana</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Native Hawaiian or Other Pacific Islander</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#17">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#17"/>
+    <j.1:name>Arizona</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#203">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#203"/>
+    <j.1:name>New Hampshire</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#324">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#324"/>
+    <j.1:name>Vermont</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#198">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#198"/>
+    <j.1:name>Nevada</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#312">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#312"/>
+    <j.1:name>Texas</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Native Hawaiian or Other Pacific Islander</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#300">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#300"/>
+    <j.1:name>South Dakota</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Other</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#18">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#18"/>
+    <j.1:name>Arizona</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Native Hawaiian or Other Pacific Islander</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.cdc.gov/api/views/hk9y-quqm//belongsToRace">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#normalizedString"/>
+    <rdfs:domain rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#105">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#105"/>
+    <j.1:name>Iowa</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#64">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#64"/>
+    <j.1:name>Florida</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#117">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#117"/>
+    <j.1:name>Kansas</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#52">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#52"/>
+    <j.1:name>Delaware</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#294">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#294"/>
+    <j.1:name>South Dakota</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#129">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#129"/>
+    <j.1:name>Louisiana</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#2">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#2"/>
+    <j.1:name>Alabama</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#40">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#40"/>
+    <j.1:name>Colorado</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#282">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#282"/>
+    <j.1:name>Rhode Island</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#270">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#270"/>
+    <j.1:name>Oregon</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Native Hawaiian or Other Pacific Islander</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#161">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#161"/>
+    <j.1:name>Minnesota</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#173">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#173"/>
+    <j.1:name>Mississippi</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#88">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#88"/>
+    <j.1:name>Idaho</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Native Hawaiian or Other Pacific Islander</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#238">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#238"/>
+    <j.1:name>North Carolina</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#359">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#359"/>
+    <j.1:name>Wyoming</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#185">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#185"/>
+    <j.1:name>Montana</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#76">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#76"/>
+    <j.1:name>Georgia</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Other</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#347">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#347"/>
+    <j.1:name>West Virginia</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Native Hawaiian or Other Pacific Islander</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#197">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#197"/>
+    <j.1:name>Nevada</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#226">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#226"/>
+    <j.1:name>New York</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#335">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#335"/>
+    <j.1:name>Virginia</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Other</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#214">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#214"/>
+    <j.1:name>New Jersey</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Native Hawaiian or Other Pacific Islander</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#323">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#323"/>
+    <j.1:name>Vermont</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#202">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#202"/>
+    <j.1:name>Nevada</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Other</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#311">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#311"/>
+    <j.1:name>Texas</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
+    <j.1:atScale>medium</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#310">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#310"/>
+    <j.1:name>Texas</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#104">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#104"/>
+    <j.1:name>Indiana</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Other</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#116">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#116"/>
+    <j.1:name>Kansas</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Native Hawaiian or Other Pacific Islander</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#75">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#75"/>
+    <j.1:name>Georgia</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
+    <j.1:atScale>medium</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#128">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#128"/>
+    <j.1:name>Louisiana</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#63">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#63"/>
+    <j.1:name>Florida</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#51">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#51"/>
+    <j.1:name>Delaware</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#293">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#293"/>
+    <j.1:name>South Carolina</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Other</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#281">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#281"/>
+    <j.1:name>Rhode Island</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#1">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#1"/>
+    <j.1:name>Alabama</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#160">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#160"/>
+    <j.1:name>Michigan</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Other</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#172">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#172"/>
+    <j.1:name>Mississippi</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Native Hawaiian or Other Pacific Islander</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#184">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#184"/>
+    <j.1:name>Montana</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#99">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#99"/>
+    <j.1:name>Indiana</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#196">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#196"/>
+    <j.1:name>Nevada</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#87">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#87"/>
+    <j.1:name>Idaho</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#249">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#249"/>
+    <j.1:name>North Dakota</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Native Hawaiian or Other Pacific Islander</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#237">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#237"/>
+    <j.1:name>New York City</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Other</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#358">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#358"/>
+    <j.1:name>Wyoming</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#225">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#225"/>
+    <j.1:name>New York</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#346">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#346"/>
+    <j.1:name>West Virginia</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#213">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#213"/>
+    <j.1:name>New Jersey</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#334">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#334"/>
+    <j.1:name>Virginia</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
+    <j.1:atScale>medium</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#201">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#201"/>
+    <j.1:name>Nevada</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
+    <j.1:atScale>high</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://cdc.com/#322">
+    <j.1:occurredAt rdf:resource="https://cdc.com/#322"/>
+    <j.1:name>Vermont</j.1:name>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+    <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
+    <j.1:atScale>low</j.1:atScale>
+    <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
+  </rdf:Description>
+</rdf:RDF>
