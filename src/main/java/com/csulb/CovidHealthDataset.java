@@ -7,8 +7,18 @@ import org.apache.jena.vocabulary.RDFS;
 import org.apache.jena.vocabulary.XSD;
 
 import java.io.IOException;
+import java.io.InputStream;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Properties;
 
+/**
+ * This class is responsible for converting Health condition of people who died because of COVID-19
+ * to RDF
+ */
 public class CovidHealthDataset extends InputToRdfAbstractClass{
+    int lowScale;
+    int mediumScale;
 
     /**
      * Method takes
@@ -24,8 +34,14 @@ public class CovidHealthDataset extends InputToRdfAbstractClass{
         transferRdfToFile(Constants.HEALTH_CONDITION_OUTPUT_PATH);
     }
 
+    /**
+     * builds the model of the RDF
+     */
     @Override
     void buildRdf() {
+        Map<String,Resource> stateResourceTracker = new HashMap<>();
+        Map<String,Property> healthConditionPropTracker = new HashMap<>();
+        Map<String,Property> healthGroupPropTracker = new HashMap<>();
         model = ModelFactory.createDefaultModel();
         model.setNsPrefix("healthConditionRdf",Constants.HEALTH_CONDITION_URL);
 
@@ -40,14 +56,20 @@ public class CovidHealthDataset extends InputToRdfAbstractClass{
         Resource stateResource = model.createResource(Constants.HEALTH_CONDITION_URL+"#state",RDFS.Class);
         stateResource.addProperty(RDFS.subClassOf, regionResource);
 
-        //Creating properties for the data set
+        //Creating and restricting atScale Property
         Property atScaleProperty  = model.createProperty(Constants.HEALTH_CONDITION_URL+"/atScale");
         atScaleProperty.addProperty(RDFS.domain,deathsResource);
         atScaleProperty.addProperty(RDFS.range, XSD.normalizedString);
 
+        //Creating and restricting occuredAt Property
         Property occurredAtProperty  = model.createProperty(Constants.HEALTH_CONDITION_URL+"/occurredAt");
         occurredAtProperty.addProperty(RDFS.domain,deathsResource);
         occurredAtProperty.addProperty(RDFS.range,stateResource);
+
+        //Creating, restricting and building IS-A relation for health condition Property
+        Property hasHealthConditionGroupProperty = model.createProperty(Constants.HEALTH_CONDITION_URL+"/hasHealthConditionGroup");
+        hasHealthConditionGroupProperty.addProperty(RDFS.domain,deathsResource);
+        hasHealthConditionGroupProperty.addProperty(RDFS.range,XSD.normalizedString);
 
         Property hasHealthConditionProperty = model.createProperty(Constants.HEALTH_CONDITION_URL+"/hasHealthCondition");
         hasHealthConditionProperty.addProperty(RDFS.domain,deathsResource);
@@ -61,21 +83,25 @@ public class CovidHealthDataset extends InputToRdfAbstractClass{
         }
         try {
             int j = 0;
+            int stateCounter = 1;
             while ((line = csvReader.readNext()) != null) {
-                //State,	Condition,	COVID-19 Deaths
+                //State,    Condition group,    Condition,  COVID-19 Deaths --order of columns in dataset
                 String stateName="";
                 String healthCondition="";
                 String deathScale="";
+                String healthConditionGroup="";
                 for (int i=0; i< line.length;i++){
                     if(i==0){
                         stateName = line[i];
-                    }else if(i==1){
+                    } else if(i==1){
+                        healthConditionGroup = line[i];
+                    } else if(i==2){
                         healthCondition = line[i];
-                    }else if(i==2){
+                    }else if(i==3){
                         int numberOfDeaths=line[i].equals("")?0:Integer.parseInt(line[i]);
-                        if(numberOfDeaths<500)
+                        if(numberOfDeaths<lowScale)
                             deathScale = "low";
-                        else if(numberOfDeaths<1000)
+                        else if(numberOfDeaths<mediumScale)
                             deathScale = "medium";
                         else
                             deathScale = "high";
@@ -83,10 +109,19 @@ public class CovidHealthDataset extends InputToRdfAbstractClass{
                 }
                 Resource entry = model.createResource("https://cdc.com"+"/#"+ j,deathsResource);
                 entry.addProperty(atScaleProperty,deathScale);
+                entry.addProperty(hasHealthConditionGroupProperty,healthConditionGroup);
                 entry.addProperty(hasHealthConditionProperty,healthCondition);
 
-                Resource stateValue = model.createResource("https://cdc.com"+"/#" + j,stateResource);
-                stateValue.addProperty(name,stateName);
+                //Entering states data into RDF
+                Resource stateValue = null;
+                if(!stateResourceTracker.containsKey(stateName)){
+                    stateValue = model.createResource("https://cdc.com"+"/#" + stateCounter,stateResource);
+                    stateValue.addProperty(name,stateName);
+                    stateResourceTracker.put(stateName,stateValue);
+                    stateCounter++;
+                }else{
+                    stateValue = stateResourceTracker.get(stateName);
+                }
                 entry.addProperty(occurredAtProperty,stateValue);
                 j++;
             }
@@ -94,4 +129,16 @@ public class CovidHealthDataset extends InputToRdfAbstractClass{
             e.printStackTrace();
         }
     }
+
+    public void readProperties(){
+        try(InputStream in = getClass().getResourceAsStream(Constants.HEALTH_CONDITION_PROPERTIES_PATH)){
+            Properties prop = new Properties();
+            prop.load(in);
+            lowScale = Integer.parseInt(prop.getProperty("low_scale"));
+            mediumScale = Integer.parseInt(prop.getProperty("medium_scale"));
+        }catch (IOException e){
+            e.printStackTrace();
+        }
+    }
+
 }
