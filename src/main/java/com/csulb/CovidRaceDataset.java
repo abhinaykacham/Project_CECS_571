@@ -6,11 +6,15 @@ import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.vocabulary.RDFS;
 import org.apache.jena.vocabulary.XSD;
 
+import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.InputStream;
+import java.util.Properties;
 
 
 public class CovidRaceDataset extends InputToRdfAbstractClass{
-
+    int lowScale;
+    int mediumScale;
     /**
      * Method takes
      * @param filePath as input parameter and tries to convert csv to machine understandable Strings
@@ -21,6 +25,7 @@ public class CovidRaceDataset extends InputToRdfAbstractClass{
 
     @Override
     void run() {
+        readProperties();
         buildRdf();
         transferRdfToFile(Constants.COVID_RACE_OUTPUT_PATH);
     }
@@ -73,9 +78,9 @@ public class CovidRaceDataset extends InputToRdfAbstractClass{
                         race = line[i];
                     }else if(i==2){
                         int numberOfDeaths=line[i].equals("")?0:Integer.parseInt(line[i]);
-                        if(numberOfDeaths<500)
+                        if(numberOfDeaths<lowScale)
                             deathScale = "low";
-                        else if(numberOfDeaths<1000)
+                        else if(numberOfDeaths<mediumScale)
                             deathScale = "medium";
                         else
                             deathScale = "high";
@@ -94,5 +99,16 @@ public class CovidRaceDataset extends InputToRdfAbstractClass{
             e.printStackTrace();
         }
         model.write(System.out, "RDF/XML");
+    }
+
+    public void readProperties(){
+        try(InputStream in = new FileInputStream(Constants.APPLICATION_PROPERTIES_PATH)){
+            Properties prop = new Properties();
+            prop.load(in);
+            lowScale = Integer.parseInt(prop.getProperty("race_low_scale"));
+            mediumScale = Integer.parseInt(prop.getProperty("race_medium_scale"));
+        }catch (IOException e){
+            e.printStackTrace();
+        }
     }
 }

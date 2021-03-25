@@ -133,11 +133,11 @@ public class CovidHealthDataset extends InputToRdfAbstractClass{
     }
 
     public void readProperties(){
-        try(InputStream in = new FileInputStream(Constants.HEALTH_CONDITION_PROPERTIES_PATH)){
+        try(InputStream in = new FileInputStream(Constants.APPLICATION_PROPERTIES_PATH)){
             Properties prop = new Properties();
             prop.load(in);
-            lowScale = Integer.parseInt(prop.getProperty("low_scale"));
-            mediumScale = Integer.parseInt(prop.getProperty("medium_scale"));
+            lowScale = Integer.parseInt(prop.getProperty("condition_low_scale"));
+            mediumScale = Integer.parseInt(prop.getProperty("condition_medium_scale"));
         }catch (IOException e){
             e.printStackTrace();
         }

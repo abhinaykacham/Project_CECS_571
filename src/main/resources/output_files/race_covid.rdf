@@ -73,7 +73,7 @@
     <j.1:name>Illinois</j.1:name>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
     <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
-    <j.1:atScale>medium</j.1:atScale>
+    <j.1:atScale>low</j.1:atScale>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://cdc.com/#292">
@@ -285,7 +285,7 @@
     <j.1:name>Montana</j.1:name>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
     <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
-    <j.1:atScale>high</j.1:atScale>
+    <j.1:atScale>medium</j.1:atScale>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://cdc.com/#13">
@@ -333,7 +333,7 @@
     <j.1:name>Delaware</j.1:name>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
     <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
-    <j.1:atScale>medium</j.1:atScale>
+    <j.1:atScale>low</j.1:atScale>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://cdc.com/#235">
@@ -413,7 +413,7 @@
     <j.1:name>New Mexico</j.1:name>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
     <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
-    <j.1:atScale>high</j.1:atScale>
+    <j.1:atScale>medium</j.1:atScale>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://cdc.com/#343">
@@ -485,7 +485,7 @@
     <j.1:name>Idaho</j.1:name>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
     <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
-    <j.1:atScale>high</j.1:atScale>
+    <j.1:atScale>medium</j.1:atScale>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://cdc.com/#72">
@@ -528,7 +528,7 @@
     <j.1:name>Arizona</j.1:name>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
     <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
-    <j.1:atScale>high</j.1:atScale>
+    <j.1:atScale>medium</j.1:atScale>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://cdc.com/#258">
@@ -656,7 +656,7 @@
     <j.1:name>Massachusetts</j.1:name>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
     <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
-    <j.1:atScale>medium</j.1:atScale>
+    <j.1:atScale>low</j.1:atScale>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://cdc.com/#330">
@@ -752,7 +752,7 @@
     <j.1:name>North Dakota</j.1:name>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
     <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
-    <j.1:atScale>high</j.1:atScale>
+    <j.1:atScale>medium</j.1:atScale>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://cdc.com/#180">
@@ -824,7 +824,7 @@
     <j.1:name>Michigan</j.1:name>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
     <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
-    <j.1:atScale>medium</j.1:atScale>
+    <j.1:atScale>low</j.1:atScale>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://cdc.com/#341">
@@ -832,7 +832,7 @@
     <j.1:name>Washington</j.1:name>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
     <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
-    <j.1:atScale>medium</j.1:atScale>
+    <j.1:atScale>low</j.1:atScale>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://cdc.com/#90">
@@ -864,7 +864,7 @@
     <j.1:name>Arkansas</j.1:name>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
     <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
-    <j.1:atScale>medium</j.1:atScale>
+    <j.1:atScale>low</j.1:atScale>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://cdc.com/#10">
@@ -992,7 +992,7 @@
     <j.1:name>District of Columbia</j.1:name>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
     <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
-    <j.1:atScale>medium</j.1:atScale>
+    <j.1:atScale>low</j.1:atScale>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://cdc.com/#45">
@@ -1104,7 +1104,7 @@
     <j.1:name>Oregon</j.1:name>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
     <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
-    <j.1:atScale>high</j.1:atScale>
+    <j.1:atScale>medium</j.1:atScale>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://cdc.com/#254">
@@ -1208,7 +1208,7 @@
     <j.1:name>Maine</j.1:name>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
     <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
-    <j.1:atScale>medium</j.1:atScale>
+    <j.1:atScale>low</j.1:atScale>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://cdc.com/#48">
@@ -1224,7 +1224,7 @@
     <j.1:name>Maryland</j.1:name>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
     <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
-    <j.1:atScale>medium</j.1:atScale>
+    <j.1:atScale>low</j.1:atScale>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://cdc.com/#36">
@@ -1240,7 +1240,7 @@
     <j.1:name>Pennsylvania</j.1:name>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
     <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
-    <j.1:atScale>high</j.1:atScale>
+    <j.1:atScale>medium</j.1:atScale>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://cdc.com/#308">
@@ -1360,7 +1360,7 @@
     <j.1:name>Kentucky</j.1:name>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
     <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
-    <j.1:atScale>medium</j.1:atScale>
+    <j.1:atScale>low</j.1:atScale>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://cdc.com/#132">
@@ -1408,7 +1408,7 @@
     <j.1:name>Connecticut</j.1:name>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
     <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
-    <j.1:atScale>medium</j.1:atScale>
+    <j.1:atScale>low</j.1:atScale>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://cdc.com/#289">
@@ -1668,7 +1668,7 @@
     <j.1:name>New Mexico</j.1:name>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
     <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
-    <j.1:atScale>high</j.1:atScale>
+    <j.1:atScale>medium</j.1:atScale>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://cdc.com/#89">
@@ -1884,7 +1884,7 @@
     <j.1:name>Utah</j.1:name>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
     <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
-    <j.1:atScale>high</j.1:atScale>
+    <j.1:atScale>medium</j.1:atScale>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://cdc.com/#141">
@@ -1984,7 +1984,7 @@
     <j.1:name>Oklahoma</j.1:name>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
     <j.1:belongsToRace>Non-Hispanic American Indian or Alaska Native</j.1:belongsToRace>
-    <j.1:atScale>medium</j.1:atScale>
+    <j.1:atScale>low</j.1:atScale>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://cdc.com/#108">
@@ -2024,7 +2024,7 @@
     <j.1:name>New Mexico</j.1:name>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
     <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
-    <j.1:atScale>medium</j.1:atScale>
+    <j.1:atScale>low</j.1:atScale>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://cdc.com/#338">
@@ -2072,7 +2072,7 @@
     <j.1:name>Massachusetts</j.1:name>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
     <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
-    <j.1:atScale>medium</j.1:atScale>
+    <j.1:atScale>low</j.1:atScale>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://cdc.com/#43">
@@ -2080,7 +2080,7 @@
     <j.1:name>Connecticut</j.1:name>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
     <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
-    <j.1:atScale>medium</j.1:atScale>
+    <j.1:atScale>low</j.1:atScale>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://cdc.com/#314">
@@ -2104,7 +2104,7 @@
     <j.1:name>Tennessee</j.1:name>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
     <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
-    <j.1:atScale>high</j.1:atScale>
+    <j.1:atScale>medium</j.1:atScale>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://cdc.com/#176">
@@ -2112,7 +2112,7 @@
     <j.1:name>Missouri</j.1:name>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
     <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
-    <j.1:atScale>high</j.1:atScale>
+    <j.1:atScale>medium</j.1:atScale>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://cdc.com/#188">
@@ -2323,7 +2323,7 @@
     <j.1:name>Nevada</j.1:name>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
     <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
-    <j.1:atScale>medium</j.1:atScale>
+    <j.1:atScale>low</j.1:atScale>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://cdc.com/#19">
@@ -2423,7 +2423,7 @@
     <j.1:name>North Carolina</j.1:name>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
     <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
-    <j.1:atScale>high</j.1:atScale>
+    <j.1:atScale>medium</j.1:atScale>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://cdc.com/#162">
@@ -2439,7 +2439,7 @@
     <j.1:name>New York</j.1:name>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
     <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
-    <j.1:atScale>medium</j.1:atScale>
+    <j.1:atScale>low</j.1:atScale>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://cdc.com/#348">
@@ -2495,7 +2495,7 @@
     <j.1:name>New Hampshire</j.1:name>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
     <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
-    <j.1:atScale>high</j.1:atScale>
+    <j.1:atScale>medium</j.1:atScale>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://cdc.com/#324">
@@ -2579,7 +2579,7 @@
     <j.1:name>South Dakota</j.1:name>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
     <j.1:belongsToRace>Non-Hispanic White</j.1:belongsToRace>
-    <j.1:atScale>high</j.1:atScale>
+    <j.1:atScale>medium</j.1:atScale>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://cdc.com/#129">
@@ -2603,7 +2603,7 @@
     <j.1:name>Colorado</j.1:name>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
     <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
-    <j.1:atScale>high</j.1:atScale>
+    <j.1:atScale>medium</j.1:atScale>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://cdc.com/#282">
@@ -2739,7 +2739,7 @@
     <j.1:name>Texas</j.1:name>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
     <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
-    <j.1:atScale>medium</j.1:atScale>
+    <j.1:atScale>low</j.1:atScale>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://cdc.com/#310">
@@ -2771,7 +2771,7 @@
     <j.1:name>Georgia</j.1:name>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
     <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
-    <j.1:atScale>medium</j.1:atScale>
+    <j.1:atScale>low</j.1:atScale>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://cdc.com/#128">
@@ -2851,7 +2851,7 @@
     <j.1:name>Indiana</j.1:name>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
     <j.1:belongsToRace>Non-Hispanic Black</j.1:belongsToRace>
-    <j.1:atScale>high</j.1:atScale>
+    <j.1:atScale>medium</j.1:atScale>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://cdc.com/#196">
@@ -2883,7 +2883,7 @@
     <j.1:name>New York City</j.1:name>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
     <j.1:belongsToRace>Other</j.1:belongsToRace>
-    <j.1:atScale>high</j.1:atScale>
+    <j.1:atScale>medium</j.1:atScale>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://cdc.com/#358">
@@ -2915,7 +2915,7 @@
     <j.1:name>New Jersey</j.1:name>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
     <j.1:belongsToRace>Non-Hispanic Asian</j.1:belongsToRace>
-    <j.1:atScale>high</j.1:atScale>
+    <j.1:atScale>medium</j.1:atScale>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://cdc.com/#334">
@@ -2923,7 +2923,7 @@
     <j.1:name>Virginia</j.1:name>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
     <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
-    <j.1:atScale>medium</j.1:atScale>
+    <j.1:atScale>low</j.1:atScale>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://cdc.com/#201">
@@ -2931,7 +2931,7 @@
     <j.1:name>Nevada</j.1:name>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
     <j.1:belongsToRace>Hispanic</j.1:belongsToRace>
-    <j.1:atScale>high</j.1:atScale>
+    <j.1:atScale>medium</j.1:atScale>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#deaths"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://cdc.com/#322">
