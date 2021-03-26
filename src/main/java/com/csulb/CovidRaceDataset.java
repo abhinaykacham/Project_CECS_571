@@ -114,10 +114,9 @@ public class CovidRaceDataset extends InputToRdfAbstractClass{
         }catch (IOException e){
             e.printStackTrace();
         }
-        model.write(System.out, "RDF/XML");
     }
 
-    /* Helper method for reading the properties from application.properities file*/
+    /* Helper method for reading the properties from application.properties file*/
     public void readProperties(){
         try(InputStream in = new FileInputStream(Constants.APPLICATION_PROPERTIES_PATH)){
             Properties prop = new Properties();
