@@ -87,6 +87,11 @@ public class CovidRaceDataset extends InputToRdfAbstractClass{
         distributionProperty.addProperty(RDFS.domain,deathsResource);
         distributionProperty.addProperty(RDFS.range,XSD.decimal);
 
+        Property affectedWithProperty = model.createProperty(Constants.HEALTH_CONDITION_URL+"/affectedWith");
+        affectedWithProperty.addProperty(RDFS.domain,stateResource);
+        affectedWithProperty.addProperty(RDFS.range,COVIDFatalityResource);
+        affectedWithProperty.addProperty(OWL.inverseOf,occurredAtProperty);
+
         String[] line;
         try {
             csvReader.skip(1);

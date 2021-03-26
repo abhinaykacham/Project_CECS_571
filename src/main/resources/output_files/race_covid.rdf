@@ -38952,6 +38952,11 @@
     <j.1:belongsToCountry>USA</j.1:belongsToCountry>
     <rdf:type rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#covid_fatality"/>
   </rdf:Description>
+  <rdf:Description rdf:about="https://data.cdc.gov/api/views/hk9y-quqm//affectedWith">
+    <owl:inverseOf rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm//occurredAt"/>
+    <rdfs:range rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#covid_fatality"/>
+    <rdfs:domain rdf:resource="https://data.cdc.gov/api/views/hk9y-quqm/#state"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://cdc.com/#940">
     <j.1:withDeaths rdf:resource="https://cdc.com/#940"/>
     <j.1:atScale>low</j.1:atScale>

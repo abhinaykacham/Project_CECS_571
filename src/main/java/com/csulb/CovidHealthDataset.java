@@ -107,6 +107,11 @@ public class CovidHealthDataset extends InputToRdfAbstractClass{
         affectedByProperty.addProperty(RDFS.domain,COVIDFatalityResource);
         affectedByProperty.addProperty(RDFS.range,diseaseResource);
 
+        Property affectedWithProperty = model.createProperty(Constants.HEALTH_CONDITION_URL+"/affectedWith");
+        affectedWithProperty.addProperty(RDFS.domain,stateResource);
+        affectedWithProperty.addProperty(RDFS.range,COVIDFatalityResource);
+        affectedWithProperty.addProperty(OWL.inverseOf,occurredAtProperty);
+
         String[] line;
         try {
             csvReader.skip(1);
