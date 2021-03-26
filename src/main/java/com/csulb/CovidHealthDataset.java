@@ -159,11 +159,11 @@ public class CovidHealthDataset extends InputToRdfAbstractClass{
                     stateValue.addProperty(name,stateName);
                     stateResourceTracker.put(stateName,stateValue);
                     stateCounter++;
+                    stateValue.addProperty(countryProperty,"USA");
                 }else{
                     stateValue = stateResourceTracker.get(stateName);
                 }
                 entry.addProperty(occurredAtProperty,stateValue);
-                entry.addProperty(countryProperty,"USA");
                 j++;
             }
         }catch (IOException e){
