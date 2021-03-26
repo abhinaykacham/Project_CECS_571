@@ -132,6 +132,7 @@ public class CovidHealthDataset extends InputToRdfAbstractClass{
         }
     }
 
+    /* Helper method for reading the properties from application.properties file*/
     public void readProperties(){
         try(InputStream in = new FileInputStream(Constants.APPLICATION_PROPERTIES_PATH)){
             Properties prop = new Properties();

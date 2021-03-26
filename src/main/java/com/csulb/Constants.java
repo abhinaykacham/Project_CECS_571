@@ -1,9 +1,6 @@
 package com.csulb;
 
 import java.io.File;
-import java.nio.file.FileSystems;
-import java.nio.file.Path;
-
 
 public final class Constants {
     public static final String FS = File.separator;

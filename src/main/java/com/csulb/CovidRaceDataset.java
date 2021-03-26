@@ -12,6 +12,10 @@ import java.io.InputStream;
 import java.util.Properties;
 
 
+/**
+ * This class is responsible for converting particular race people  who died because of COVID-19
+ * to RDF
+ */
 public class CovidRaceDataset extends InputToRdfAbstractClass{
     int lowScale;
     int mediumScale;
@@ -30,6 +34,9 @@ public class CovidRaceDataset extends InputToRdfAbstractClass{
         transferRdfToFile(Constants.COVID_RACE_OUTPUT_PATH);
     }
 
+    /**
+     * RDF is build using buildRDF
+     */
     @Override
     void buildRdf() {
         model = ModelFactory.createDefaultModel();
@@ -107,9 +114,9 @@ public class CovidRaceDataset extends InputToRdfAbstractClass{
         }catch (IOException e){
             e.printStackTrace();
         }
-        model.write(System.out, "RDF/XML");
     }
 
+    /* Helper method for reading the properties from application.properties file*/
     public void readProperties(){
         try(InputStream in = new FileInputStream(Constants.APPLICATION_PROPERTIES_PATH)){
             Properties prop = new Properties();
