@@ -112,6 +112,10 @@ public class CovidHealthDataset extends InputToRdfAbstractClass{
         affectedWithProperty.addProperty(RDFS.range,COVIDFatalityResource);
         affectedWithProperty.addProperty(OWL.inverseOf,occurredAtProperty);
 
+        model.setNsPrefix("deaths", Constants.HEALTH_CONDITION_DEATHS_URL + "/");
+        model.setNsPrefix("state", Constants.HEALTH_CONDITION_STATES_URL + "/");
+        model.setNsPrefix("hc", Constants.HEALTH_CONDITION_HC_URL + "/");
+
         String[] line;
         try {
             csvReader.skip(1);
@@ -145,22 +149,22 @@ public class CovidHealthDataset extends InputToRdfAbstractClass{
                             deathScale = "high";
                     }
                 }
-                Resource deathsStats = model.createResource("https://cdc.com"+"/#"+ j,deathsResource);
+                Resource deathsStats = model.createResource(Constants.HEALTH_CONDITION_DEATHS_URL+"/"+ j+"/death_entry",deathsResource);
                 deathsStats.addProperty(atScaleProperty,deathScale);
                 deathsStats.addProperty(havingCountProperty,String.valueOf(numberOfDeaths));
 
-                Resource diseaseData = model.createResource("https://cdc.com"+"/#"+ j,diseaseResource);
+                Resource diseaseData = model.createResource(Constants.HEALTH_CONDITION_HC_URL+"/"+ j+"/health_condition_entry",diseaseResource);
                 diseaseData.addProperty(hasHealthConditionGroupProperty,healthConditionGroup);
                 diseaseData.addProperty(hasHealthConditionProperty,healthCondition);
 
-                Resource entry = model.createResource("https://cdc.com"+"/#"+ j,COVIDFatalityResource);
+                Resource entry = model.createResource(Constants.HEALTH_CONDITION_URL+"/"+ j+"/entry",COVIDFatalityResource);
                 entry.addProperty(withDeathsProperty,deathsStats);
                 entry.addProperty(affectedByProperty,diseaseData);
 
                 //Entering states data into RDF
                 Resource stateValue = null;
                 if(!stateResourceTracker.containsKey(stateName)){
-                    stateValue = model.createResource("https://cdc.com"+"/#"+j + stateCounter,stateResource);
+                    stateValue = model.createResource(Constants.HEALTH_CONDITION_STATES_URL+"/"+j+"/state_entry",stateResource);
                     stateValue.addProperty(name,stateName);
                     stateResourceTracker.put(stateName,stateValue);
                     stateCounter++;

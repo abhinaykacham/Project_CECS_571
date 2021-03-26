@@ -92,6 +92,9 @@ public class CovidRaceDataset extends InputToRdfAbstractClass{
         affectedWithProperty.addProperty(RDFS.range,COVIDFatalityResource);
         affectedWithProperty.addProperty(OWL.inverseOf,occurredAtProperty);
 
+        model.setNsPrefix("deaths", Constants.COVID_RACE_DEATHS_URL + "/");
+        model.setNsPrefix("state", Constants.COVID_RACE_STATES_URL + "/");
+
         String[] line;
         try {
             csvReader.skip(1);
@@ -126,8 +129,8 @@ public class CovidRaceDataset extends InputToRdfAbstractClass{
                 }
 
                 //Defined properties for covid Fatality with count and scale properties
-                Resource entry = model.createResource("https://cdc.com"+"/#"+ j,COVIDFatalityResource);
-                Resource deathsStats = model.createResource("https://cdc.com"+"/#"+ j,deathsResource);
+                Resource entry = model.createResource(Constants.COVID_RACE_URL+"/"+ j+"/entry",COVIDFatalityResource);
+                Resource deathsStats = model.createResource(Constants.COVID_RACE_DEATHS_URL+"/"+ j+"/death_entry",deathsResource);
                 deathsStats.addProperty(atScaleProperty,deathScale);
                 deathsStats.addProperty(havingCountProperty,String.valueOf(numberOfDeaths));
                 entry.addProperty(hasBelongsToRaceProperty,race);
@@ -135,7 +138,7 @@ public class CovidRaceDataset extends InputToRdfAbstractClass{
                 entry.addProperty(distributionProperty, String.valueOf(distribution));
 
                 //Created state instance with country Property
-                Resource stateValue = model.createResource("https://cdc.com"+"/#" + j,stateResource);
+                Resource stateValue = model.createResource(Constants.COVID_RACE_STATES_URL+"/"+j+"/state_entry",stateResource);
                 stateValue.addProperty(name,stateName);
                 stateValue.addProperty(countryProperty,"USA");
                 entry.addProperty(occurredAtProperty,stateValue);
