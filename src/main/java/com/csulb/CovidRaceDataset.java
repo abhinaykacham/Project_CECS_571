@@ -58,6 +58,10 @@ public class CovidRaceDataset extends InputToRdfAbstractClass{
         hasBelongsToRaceProperty.addProperty(RDFS.domain,deathsResource);
         hasBelongsToRaceProperty.addProperty(RDFS.range,XSD.normalizedString);
 
+        Property distributionProperty = model.createProperty(Constants.COVID_RACE_URL+"/covidDistribution");
+        distributionProperty.addProperty(RDFS.domain,deathsResource);
+        distributionProperty.addProperty(RDFS.range,XSD.decimal);
+
         String[] line;
         try {
             csvReader.skip(1);
@@ -71,24 +75,29 @@ public class CovidRaceDataset extends InputToRdfAbstractClass{
                 String stateName="";
                 String race="";
                 String deathScale="";
+                double distribution=0;
                 for (int i=0; i< line.length;i++){
                     if(i==0){
                         stateName = line[i];
                     }else if(i==1){
                         race = line[i];
                     }else if(i==2){
-                        int numberOfDeaths=line[i].equals("")?0:Integer.parseInt(line[i]);
+                        double numberOfDeaths=line[i].equals("")?0:Double.parseDouble(line[i]);
                         if(numberOfDeaths<lowScale)
                             deathScale = "low";
                         else if(numberOfDeaths<mediumScale)
                             deathScale = "medium";
                         else
                             deathScale = "high";
+                    } else if(i==3){
+                        distribution = line[i].equals("")?0:Double.parseDouble(line[i]);
                     }
                 }
+
                 Resource entry = model.createResource("https://cdc.com"+"/#"+ j,deathsResource);
                 entry.addProperty(atScaleProperty,deathScale);
                 entry.addProperty(hasBelongsToRaceProperty,race);
+                entry.addProperty(distributionProperty, String.valueOf(distribution));
 
                 Resource stateValue = model.createResource("https://cdc.com"+"/#" + j,stateResource);
                 stateValue.addProperty(name,stateName);
