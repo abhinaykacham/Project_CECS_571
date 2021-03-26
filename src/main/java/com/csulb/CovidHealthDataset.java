@@ -3,6 +3,7 @@ package com.csulb;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdf.model.Property;
 import org.apache.jena.rdf.model.Resource;
+import org.apache.jena.vocabulary.OWL;
 import org.apache.jena.vocabulary.RDFS;
 import org.apache.jena.vocabulary.XSD;
 
@@ -48,34 +49,63 @@ public class CovidHealthDataset extends InputToRdfAbstractClass{
         model.setNsPrefix("healthConditionRdf",Constants.HEALTH_CONDITION_URL);
 
         //Creating resources for the dataset
-        Resource deathsResource = model.createResource(Constants.HEALTH_CONDITION_URL+"#deaths", RDFS.Class);
+
+        //This resource holds the data of each record of the input file
+        Resource COVIDFatalityResource = model.createResource(Constants.HEALTH_CONDITION_URL+"#covid_fatality", RDFS.Class);
 
         Resource regionResource = model.createResource(Constants.HEALTH_CONDITION_URL+"#region",RDFS.Class);
-        Property name = model.createProperty(Constants.HEALTH_CONDITION_URL+"/name");
-        name.addProperty(RDFS.range,XSD.normalizedString);
-        name.addProperty(RDFS.domain,regionResource);
 
+        //This resource holds the state data of the dataset
         Resource stateResource = model.createResource(Constants.HEALTH_CONDITION_URL+"#state",RDFS.Class);
         stateResource.addProperty(RDFS.subClassOf, regionResource);
+
+        //This resource holds the properties scale and fatalities count
+        Resource deathsResource = model.createResource(Constants.HEALTH_CONDITION_URL+"#deaths",RDFS.Class);
+
+        //This resource holds the properties such as health condition and its group
+        Resource diseaseResource = model.createResource(Constants.HEALTH_CONDITION_URL+"#disease", RDFS.Class);
+        diseaseResource.addProperty(OWL.disjointWith,regionResource);
+
+        Property name = model.createProperty(Constants.HEALTH_CONDITION_URL+"/name");
+        name.addProperty(RDFS.domain,regionResource);
+        name.addProperty(RDFS.range,XSD.token);
+
+        Property countryProperty = model.createProperty(Constants.HEALTH_CONDITION_URL+"/belongsToCountry");
+        countryProperty.addProperty(RDFS.domain,stateResource);
+        countryProperty.addProperty(RDFS.range,XSD.token);
+
+        //Creating and restricting occurredAt Property
+        Property occurredAtProperty  = model.createProperty(Constants.HEALTH_CONDITION_URL+"/occurredAt");
+        occurredAtProperty.addProperty(RDFS.domain,COVIDFatalityResource);
+        occurredAtProperty.addProperty(RDFS.range,stateResource);
+        occurredAtProperty.addProperty(OWL.someValuesFrom,stateResource);
+
+        Property withDeathsProperty = model.createProperty(Constants.HEALTH_CONDITION_URL+"/withDeaths");
+        withDeathsProperty.addProperty(RDFS.domain,COVIDFatalityResource);
+        withDeathsProperty.addProperty(RDFS.range,deathsResource);
 
         //Creating and restricting atScale Property
         Property atScaleProperty  = model.createProperty(Constants.HEALTH_CONDITION_URL+"/atScale");
         atScaleProperty.addProperty(RDFS.domain,deathsResource);
-        atScaleProperty.addProperty(RDFS.range, XSD.normalizedString);
+        atScaleProperty.addProperty(RDFS.range, XSD.token);
 
-        //Creating and restricting occuredAt Property
-        Property occurredAtProperty  = model.createProperty(Constants.HEALTH_CONDITION_URL+"/occurredAt");
-        occurredAtProperty.addProperty(RDFS.domain,deathsResource);
-        occurredAtProperty.addProperty(RDFS.range,stateResource);
+        Property havingCountProperty = model.createProperty(Constants.HEALTH_CONDITION_URL+"/havingCount");
+        havingCountProperty.addProperty(RDFS.domain,deathsResource);
+        havingCountProperty.addProperty(RDFS.range,XSD.nonNegativeInteger);
 
-        //Creating, restricting and building IS-A relation for health condition Property
+        //Creating and restricting health condition group Property
         Property hasHealthConditionGroupProperty = model.createProperty(Constants.HEALTH_CONDITION_URL+"/hasHealthConditionGroup");
-        hasHealthConditionGroupProperty.addProperty(RDFS.domain,deathsResource);
-        hasHealthConditionGroupProperty.addProperty(RDFS.range,XSD.normalizedString);
+        hasHealthConditionGroupProperty.addProperty(RDFS.domain,diseaseResource);
+        hasHealthConditionGroupProperty.addProperty(RDFS.range,XSD.token);
 
+        //Creating and restricting health condition Property
         Property hasHealthConditionProperty = model.createProperty(Constants.HEALTH_CONDITION_URL+"/hasHealthCondition");
-        hasHealthConditionProperty.addProperty(RDFS.domain,deathsResource);
-        hasHealthConditionProperty.addProperty(RDFS.range,XSD.normalizedString);
+        hasHealthConditionProperty.addProperty(RDFS.domain,diseaseResource);
+        hasHealthConditionProperty.addProperty(RDFS.range,XSD.token);
+
+        Property affectedByProperty = model.createProperty(Constants.HEALTH_CONDITION_URL+"/affectedBy");
+        affectedByProperty.addProperty(RDFS.domain,COVIDFatalityResource);
+        affectedByProperty.addProperty(RDFS.range,diseaseResource);
 
         String[] line;
         try {
@@ -92,6 +122,7 @@ public class CovidHealthDataset extends InputToRdfAbstractClass{
                 String healthCondition="";
                 String deathScale="";
                 String healthConditionGroup="";
+                int numberOfDeaths=0;
                 for (int i=0; i< line.length;i++){
                     if(i==0){
                         stateName = line[i];
@@ -100,7 +131,7 @@ public class CovidHealthDataset extends InputToRdfAbstractClass{
                     } else if(i==2){
                         healthCondition = line[i];
                     }else if(i==3){
-                        int numberOfDeaths=line[i].equals("")?0:Integer.parseInt(line[i]);
+                        numberOfDeaths=line[i].equals("")?0:Integer.parseInt(line[i]);
                         if(numberOfDeaths<lowScale)
                             deathScale = "low";
                         else if(numberOfDeaths<mediumScale)
@@ -109,15 +140,22 @@ public class CovidHealthDataset extends InputToRdfAbstractClass{
                             deathScale = "high";
                     }
                 }
-                Resource entry = model.createResource("https://cdc.com"+"/#"+ j,deathsResource);
-                entry.addProperty(atScaleProperty,deathScale);
-                entry.addProperty(hasHealthConditionGroupProperty,healthConditionGroup);
-                entry.addProperty(hasHealthConditionProperty,healthCondition);
+                Resource deathsStats = model.createResource("https://cdc.com"+"/#"+ j,deathsResource);
+                deathsStats.addProperty(atScaleProperty,deathScale);
+                deathsStats.addProperty(havingCountProperty,String.valueOf(numberOfDeaths));
+
+                Resource diseaseData = model.createResource("https://cdc.com"+"/#"+ j,diseaseResource);
+                diseaseData.addProperty(hasHealthConditionGroupProperty,healthConditionGroup);
+                diseaseData.addProperty(hasHealthConditionProperty,healthCondition);
+
+                Resource entry = model.createResource("https://cdc.com"+"/#"+ j,COVIDFatalityResource);
+                entry.addProperty(withDeathsProperty,deathsStats);
+                entry.addProperty(affectedByProperty,diseaseData);
 
                 //Entering states data into RDF
                 Resource stateValue = null;
                 if(!stateResourceTracker.containsKey(stateName)){
-                    stateValue = model.createResource("https://cdc.com"+"/#" + stateCounter,stateResource);
+                    stateValue = model.createResource("https://cdc.com"+"/#"+j + stateCounter,stateResource);
                     stateValue.addProperty(name,stateName);
                     stateResourceTracker.put(stateName,stateValue);
                     stateCounter++;
@@ -125,6 +163,7 @@ public class CovidHealthDataset extends InputToRdfAbstractClass{
                     stateValue = stateResourceTracker.get(stateName);
                 }
                 entry.addProperty(occurredAtProperty,stateValue);
+                entry.addProperty(countryProperty,"USA");
                 j++;
             }
         }catch (IOException e){
@@ -132,7 +171,9 @@ public class CovidHealthDataset extends InputToRdfAbstractClass{
         }
     }
 
-    /* Helper method for reading the properties from application.properties file*/
+    /**
+     *  Helper method for reading the properties from application.properties file
+     */
     public void readProperties(){
         try(InputStream in = new FileInputStream(Constants.APPLICATION_PROPERTIES_PATH)){
             Properties prop = new Properties();
